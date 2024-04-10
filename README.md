@@ -1,2 +1,2 @@
-# beebot
-a telegram miniapp
+# game
+a html5 game
