@@ -1,18 +1,20 @@
-/*
-    File: game.js
-    This script implements the game itself using the Phaser library. A single state has
-    been implemented, using the preload, create and update functions.
-    
-    Author: Alessio Giuseppe Calì
-*/
+import uniplay from 'uniplay';
 
-/*
-    This class represent each hero. All of them have:
-    - A spritesheet
-    - An attack sprite
-    - An attack button
-    - Frame references for the slime spritesheet
-*/
+const getCookie = (cname) => {
+    let name = cname + "=";
+    let ca = document.cookie.split(";");
+    for (let i = 0; i < ca.length; i++) {
+        let c = ca[i].trim();
+        if (c.indexOf(name) == 0) {
+            return c.substring(name.length, c.length);
+        }
+    }
+}
+if (!uniplay.Utils.getCookie('Authorization')) {
+    // uniplay.login();
+    console.log('no cookie found')
+}
+console.log(uniplay.Utils.urlParseQueryString());
 class Hero {
     constructor(sprite_ref, x, y, attack_ref, attack_button_ref, slime_frames) {
         this.sprite = game.add.sprite(sprite_ref, x, y);
