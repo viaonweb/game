@@ -11,10 +11,9 @@ const getCookie = (cname) => {
     }
 }
 if (!uniplay.Utils.getCookie('Authorization')) {
-    // uniplay.login();
-    console.log('no cookie found')
+    uniplay.login();
 }
-console.log(uniplay.Utils.urlParseQueryString());
+
 class Hero {
     constructor(sprite_ref, x, y, attack_ref, attack_button_ref, slime_frames) {
         this.sprite = game.add.sprite(sprite_ref, x, y);
