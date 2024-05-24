@@ -1,7 +1,7 @@
 import uniplay from 'uniplay';
 
 if (!uniplay.Utils.getCookie('Authorization')) {
-    uniplay.login();
+    uniplay.getUserInfo();
 }
 
 class Hero {
