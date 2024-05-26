@@ -123,11 +123,6 @@ envinfo@^7.7.3:
   resolved "https://registry.yarnpkg.com/envinfo/-/envinfo-7.13.0.tgz#81fbb81e5da35d74e814941aeab7c325a606fb31"
   integrity sha512-cvcaMr7KqXVh4nyzGTVqTum+gAiL265x5jUWQIDLq//zOGbW+gSW/C+OWLleY/rs9Qole6AZLMXPbtIFQbqu+Q==
 
-events@^3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/events/-/events-3.3.0.tgz#31a95ad0a924e2d2c419a813aeb2c4e878ea7400"
-  integrity sha512-mQw+2fkQbALzQ7V0MY0IqdnXNOeTtP4r0lN9z7AAawCXgqea7bDii20AYrIBrFd/Hx0M2Ocz6S111CaFkUcb0Q==
-
 fast-deep-equal@^3.1.3:
   version "3.1.3"
   resolved "https://registry.yarnpkg.com/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz#3a7d56b559d6cbc3eb512325244e619a65c6c525"
@@ -410,13 +405,12 @@ supports-preserve-symlinks-flag@^1.0.0:
   resolved "https://registry.yarnpkg.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
 
-uniplay@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/uniplay/-/uniplay-0.0.3.tgz#7f1c15c7f4937a3e3df3e8bffd3f0d85436980b8"
-  integrity sha512-7K7TF/6TGxf/i/9qmW7gp6jxVRmxcOkLkz02ZpvVb+8/2e8vJtwEOSWuc8DaylTUfgDyyFp+joahQ0bAkM0Kaw==
+uniplay@^0.0.7-beta.0:
+  version "0.0.7-beta.0"
+  resolved "https://registry.yarnpkg.com/uniplay/-/uniplay-0.0.7-beta.0.tgz#597e7f745b432245b9bd1f71356b430ad504cb45"
+  integrity sha512-0ogMYFElOLxtAjI7fwlG5kppq/zkPpZt3GIRwobH1CtQVluYU1gkTX09I0rTJ48hUC0Oug0SBfuXBsY9QtkyOA==
   dependencies:
     axios "^1.7.1"
-    events "^3.3.0"
 
 uri-js@^4.4.1:
   version "4.4.1"

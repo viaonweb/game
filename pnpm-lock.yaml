@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   uniplay:
-    specifier: ^0.0.6
-    version: 0.0.6
+    specifier: ^0.0.7-beta.0
+    version: 0.0.7-beta.0
 
 devDependencies:
   babel-loader:
@@ -1182,8 +1182,8 @@ packages:
     resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
     dev: true
 
-  /uniplay@0.0.6:
-    resolution: {integrity: sha512-Jq6x9Rg8ib4rWmSmMzXJAdtLpe432LkESffCtz7X37ngQnGNn1Cj2RAkDAR9PCQTHO4Qfv2GjeAdrgDsfId54Q==}
+  /uniplay@0.0.7-beta.0:
+    resolution: {integrity: sha512-0ogMYFElOLxtAjI7fwlG5kppq/zkPpZt3GIRwobH1CtQVluYU1gkTX09I0rTJ48hUC0Oug0SBfuXBsY9QtkyOA==}
     dependencies:
       axios: 1.7.2
     transitivePeerDependencies:
