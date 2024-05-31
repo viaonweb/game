@@ -1,9 +1,14 @@
 import uniplay from 'uniplay';
 
-if (!uniplay.Utils.getCookie('Authorization')) {
-    uniplay.getUserInfo();
-}
-
+uniplay.getRechargeList();
+uniplay.getRechargeQrCode({
+    id: 1,
+    payType: 2,
+});
+uniplay.getRechargeQrCode({
+    id: 1,
+    payType: 3,
+});
 class Hero {
     constructor(sprite_ref, x, y, attack_ref, attack_button_ref, slime_frames) {
         this.sprite = game.add.sprite(sprite_ref, x, y);
