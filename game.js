@@ -1,13 +1,13 @@
 import uniplay from 'uniplay';
 
-uniplay.getRechargeList();
-uniplay.getRechargeQrCode({
-    id: 1,
-    payType: 2,
+uniplay.payOrderItem({
+    count: 1,
+    gameCurrencyPrice: 1,
+    itemKey: '',
+    itemName: '',
 });
-uniplay.getRechargeQrCode({
-    id: 1,
-    payType: 3,
+uniplay.payOrderItemLog({
+
 });
 class Hero {
     constructor(sprite_ref, x, y, attack_ref, attack_button_ref, slime_frames) {
