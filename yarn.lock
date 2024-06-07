@@ -405,10 +405,10 @@ supports-preserve-symlinks-flag@^1.0.0:
   resolved "https://registry.yarnpkg.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
 
-uniplay@^0.0.7-beta.0:
-  version "0.0.7-beta.0"
-  resolved "https://registry.yarnpkg.com/uniplay/-/uniplay-0.0.7-beta.0.tgz#597e7f745b432245b9bd1f71356b430ad504cb45"
-  integrity sha512-0ogMYFElOLxtAjI7fwlG5kppq/zkPpZt3GIRwobH1CtQVluYU1gkTX09I0rTJ48hUC0Oug0SBfuXBsY9QtkyOA==
+uniplay@^0.0.8-beta.0:
+  version "0.0.8-beta.0"
+  resolved "https://registry.yarnpkg.com/uniplay/-/uniplay-0.0.8-beta.0.tgz#f6938ac52f9bdb38027cd52a6a2a1156790befe3"
+  integrity sha512-54+h0nY5ZggG326RcmhB6B+ExA4hwccgqKpZa4LmzenhbqxBE4gXRpmdP3KICahj8nfXCztC7r8cMJY4vHWYVw==
   dependencies:
     axios "^1.7.1"
 

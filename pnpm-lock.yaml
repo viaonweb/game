@@ -6,7 +6,7 @@ settings:
 
 dependencies:
   uniplay:
-    specifier: ^0.0.8-beta.0
+    specifier: 0.0.8-beta.0
     version: 0.0.8-beta.0
 
 devDependencies:
