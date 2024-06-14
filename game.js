@@ -1,6 +1,8 @@
 import uniplay from 'uniplay';
 
-alert(JSON.stringify(location.href));
+const p = document.createElement('h5');
+p.innerText= JSON.stringify(location.href);
+document.body.append(p);
 uniplay.payOrderItem({
     count: 1,
     gameCurrencyPrice: 1,
