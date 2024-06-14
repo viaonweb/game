@@ -1,7 +1,10 @@
 import uniplay from 'uniplay';
 
 const p = document.createElement('h5');
-p.innerText= JSON.stringify(location.href);
+p.innerText= `
+${JSON.stringify(location.href)},
+${JSON.stringify(TelegramGameProxy.initParams)}
+`;
 document.body.append(p);
 uniplay.payOrderItem({
     count: 1,
