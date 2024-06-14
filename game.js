@@ -1,6 +1,6 @@
 import uniplay from 'uniplay';
 
-alert(location.href.search);
+alert(JSON.stringify(location.href));
 uniplay.payOrderItem({
     count: 1,
     gameCurrencyPrice: 1,
