@@ -3,12 +3,12 @@ import uniplay from 'uniplay';
 setTimeout(() => {
     const p = document.createElement('h5');
     p.innerText= `
-    ${JSON.stringify(location.href)},
-    ${JSON.stringify(window.TelegramGameProxy.initParams)},
-    ${JSON.stringify(window.TelegramGameProxy.shareScore)}
-`;
-}, 2000);
+        ${JSON.stringify(location.href)},
+        ${JSON.stringify(window.TelegramGameProxy.initParams)},
+        ${JSON.stringify(window.TelegramGameProxy.shareScore)}
+    `;
 document.body.append(p);
+}, 2000);
 uniplay.payOrderItem({
     count: 1,
     gameCurrencyPrice: 1,
