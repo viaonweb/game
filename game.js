@@ -10,10 +10,11 @@ setTimeout(() => {
 document.body.append(p);
 }, 2000);
 setTimeout(() => {
-    uniplay.WebApp.openTelegramLink(
-        `https://t.me/share/url?url=https://t.me/leeJDragon_bot/app?startapp=route=share_id=2
-        &text=${encodeURIComponent(`💰uniplay: Unleash, Play, Earn - Where Every Game Leads to an Airdrop Adventure!\n🎁Let's play-to-earn airdrop right now!`)}`
-    );
+    uniplay.WebApp.openTelegramLink("https://t.me/leeJDragon_bot/app?startapp=route=transaction_page=game_amount=10");
+    // uniplay.WebApp.openTelegramLink(
+    //     `https://t.me/share/url?url=https://t.me/leeJDragon_bot/app?startapp=route=share_id=2
+    //     &text=${encodeURIComponent(`💰uniplay: Unleash, Play, Earn - Where Every Game Leads to an Airdrop Adventure!\n🎁Let's play-to-earn airdrop right now!`)}`
+    // );
 }, 4000);
 
 class Hero {
