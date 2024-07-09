@@ -10,7 +10,8 @@ setTimeout(() => {
 document.body.append(p);
 }, 2000);
 setTimeout(() => {
-    uniplay.WebApp.openLink("https://t.me/leeJDragon_bot/app");
+    // uniplay.WebApp.openLink("https://t.me/leeJDragon_bot/app");
+    window.location.href = 'https://t.me/leeJDragon_bot/app';
     // uniplay.WebApp.openTelegramLink(
     //     `https://t.me/share/url?url=https://t.me/leeJDragon_bot/app?startapp=route=share_id=2
     //     &text=${encodeURIComponent(`💰uniplay: Unleash, Play, Earn - Where Every Game Leads to an Airdrop Adventure!\n🎁Let's play-to-earn airdrop right now!`)}`
