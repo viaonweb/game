@@ -1,6 +1,6 @@
 import uniplay from 'uniplay';
 
-export function stringToBase64UrlSafe(str) {
+function stringToBase64UrlSafe(str) {
     const base64 = btoa(str);
     return base64.replace(/\+/g, '-').replace(/\//g, '_').replace(/=/g, '');
 };
@@ -8,8 +8,7 @@ setTimeout(() => {
     const p = document.createElement('h5');
     p.innerText= `
         ${JSON.stringify(location.href)},
-        ${JSON.stringify(window.TelegramGameProxy.initParams)},
-        ${JSON.stringify(window.TelegramGameProxy.shareScore)}
+        1
     `;
 document.body.append(p);
 }, 2000);
