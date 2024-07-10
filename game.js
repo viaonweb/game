@@ -13,9 +13,9 @@ setTimeout(() => {
 document.body.append(p);
 }, 2000);
 setTimeout(() => {
-    window.location.href = `https://t.me/share/url?url=${'https://t.me/leeJDragon_bot/app'}?startapp=${stringToBase64UrlSafe(params)}&text=${encodeURIComponent(text)}`;
-    return;
     const params = 'route=transaction&amount=11';
+    window.location.href = `https://t.me/share/url?url=https://t.me/leeJDragon_bot/app?startapp=${stringToBase64UrlSafe(params)}&text=${encodeURIComponent(`💰uniplay: Unleash, Play, Earn - Where Every Game Leads to an Airdrop Adventure!\n🎁Let's play-to-earn airdrop right now!`)}`;
+    return;
     uniplay.openMiniApp(params);
     // window?.Telegram?.WebApp.openLink(url);
     // uniplay.shareMiniApp('route=transaction&amount=10', `💰uniplay: Unleash, Play, Earn - Where Every Game Leads to an Airdrop Adventure!\n🎁Let's play-to-earn airdrop right now!`);
