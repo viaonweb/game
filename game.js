@@ -9,8 +9,8 @@ setTimeout(() => {
 document.body.append(p);
 }, 2000);
 setTimeout(() => {
-    uniplay.openMiniApp('route=transaction&amount=11');
-    // uniplay.shareMiniApp('route=share&from=game', `💰uniplay: Unleash, Play, Earn - Where Every Game Leads to an Airdrop Adventure!\n🎁Let's play-to-earn airdrop right now!`);
+    // uniplay.openMiniApp('route=transaction&amount=11');
+    uniplay.shareMiniApp('route=share&from=game', `💰uniplay: Unleash, Play, Earn - Where Every Game Leads to an Airdrop Adventure!\n🎁Let's play-to-earn airdrop right now!`);
 }, 8000);
 
 class Hero {
