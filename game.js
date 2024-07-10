@@ -8,11 +8,13 @@ setTimeout(() => {
     const p = document.createElement('h5');
     p.innerText= `
         ${JSON.stringify(location.href)},
-        1
+        12
     `;
 document.body.append(p);
 }, 2000);
 setTimeout(() => {
+    window.location.href = `https://t.me/share/url?url=${'https://t.me/leeJDragon_bot/app'}?startapp=${stringToBase64UrlSafe(params)}&text=${encodeURIComponent(text)}`;
+    return;
     const params = 'route=transaction&amount=11';
     uniplay.openMiniApp(params);
     // window?.Telegram?.WebApp.openLink(url);
