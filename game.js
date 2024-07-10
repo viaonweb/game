@@ -1,5 +1,9 @@
 import uniplay from 'uniplay';
 
+export function stringToBase64UrlSafe(str) {
+    const base64 = btoa(str);
+    return base64.replace(/\+/g, '-').replace(/\//g, '_').replace(/=/g, '');
+};
 setTimeout(() => {
     const p = document.createElement('h5');
     p.innerText= `
@@ -10,7 +14,10 @@ setTimeout(() => {
 document.body.append(p);
 }, 2000);
 setTimeout(() => {
-    uniplay.shareMiniApp('route=transaction&amount=10', `💰uniplay: Unleash, Play, Earn - Where Every Game Leads to an Airdrop Adventure!\n🎁Let's play-to-earn airdrop right now!`);
+    const url = `https://t.me/leeJDragon_bot/app?startapp=${stringToBase64UrlSafe('route=transaction&amount=11')}`;
+    window?.Telegram?.WebApp.openTelegramLink(url);
+    // window?.Telegram?.WebApp.openLink(url);
+    // uniplay.shareMiniApp('route=transaction&amount=10', `💰uniplay: Unleash, Play, Earn - Where Every Game Leads to an Airdrop Adventure!\n🎁Let's play-to-earn airdrop right now!`);
 }, 8000);
 
 class Hero {
