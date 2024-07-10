@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   uniplay:
-    specifier: 0.0.8-beta.7
-    version: 0.0.8-beta.7
+    specifier: 0.0.8-beta.8
+    version: 0.0.8-beta.8
 
 devDependencies:
   babel-loader:
@@ -1135,8 +1135,8 @@ packages:
     resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
     dev: true
 
-  /uniplay@0.0.8-beta.7:
-    resolution: {integrity: sha512-WHXHiu26hT9jXJ82x6UAz2Wp7dnekVqTegDp4kOPt9GoaRzj2sGUJMUJtL9Nh2aqOYB2zWxLemjyQbDsMiqLkw==}
+  /uniplay@0.0.8-beta.8:
+    resolution: {integrity: sha512-qI3azGV6Ia0kWnHQhJkrehi96kE8PbVLmd+fBtR+1SmFXxdHzAp5iHZngQln7bTgKQLzv9vDlP3m05+R8wWhvw==}
     dev: false
 
   /update-browserslist-db@1.0.16(browserslist@4.23.0):
