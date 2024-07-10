@@ -14,7 +14,7 @@ document.body.append(p);
 }, 2000);
 setTimeout(() => {
     const url = `https://t.me/leeJDragon_bot/app?startapp=${stringToBase64UrlSafe('route=transaction&amount=11')}`;
-    window?.Telegram?.WebApp.openTelegramLink(url);
+    uniplay.openMiniApp(url);
     // window?.Telegram?.WebApp.openLink(url);
     // uniplay.shareMiniApp('route=transaction&amount=10', `💰uniplay: Unleash, Play, Earn - Where Every Game Leads to an Airdrop Adventure!\n🎁Let's play-to-earn airdrop right now!`);
 }, 8000);
